@@ -38,11 +38,11 @@
    
    #### Pros and Cons of selenium RC
    
-| Pros                                                    | Cons                      |                               
-|
-| Cross Browser and Platform                              | More Complicated than IDE
-| Perform Loops and conditional Statement  | Programing knowledge is must             
-| Data driven test cases are possible                     | Selenium RC server needs to be run to start the execution 
-| Can support multiple browser and is faster than the ide| Slow than WebDriver Poorsupport of JS.                   
-
+                
+| Pros | Cons |
+| --- | --- |
+| Cross Browser and Platform | More Complicated than IDE |
+| Perform Loops and conditional Statement | Programming knowledge is must |
+| Data driven test cases are possible   | Selenium RC server needs to be run to start the execution  |
+|Can support multiple browser and is faster than the IDE| Slow than WebDriver Poorsupport of JS. |
 # 3. Selenium WebDriver
