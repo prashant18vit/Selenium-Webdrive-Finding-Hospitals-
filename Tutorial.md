@@ -37,17 +37,12 @@
    2. *Selenium RC is a automated web testing tool that allow user to use their programming language.*
    
    #### Pros and Cons of selenium RC
-   +---------------------------------------------------------+-----------------------------------------------------------+
-| Pros                                                    | Cons                                                      |
-+=========================================================+===========================================================+
-| Cross Browser and Platform                              | More Complicated than IDE                                 |
-+---------------------------------------------------------+-----------------------------------------------------------+
-| Perform Loops and conditional Statment                  | Programing knowledge is must                              |
-+---------------------------------------------------------+-----------------------------------------------------------+
-| Data driven test cases are possible                     | Selenium RC server needs to be run to start the execution |
-+---------------------------------------------------------+-----------------------------------------------------------+
-| Can support multiple browser and is faster than the ide | Slow than WebDriver Poor support of JS.                   |
-+---------------------------------------------------------+-----------------------------------------------------------+
-
+   
+| Pros                                                    | Cons                      |                               
+|
+| Cross Browser and Platform                              | More Complicated than IDE
+| Perform Loops and conditional Statement  | Programing knowledge is must             
+| Data driven test cases are possible                     | Selenium RC server needs to be run to start the execution 
+| Can support multiple browser and is faster than the ide| Slow than WebDriver Poorsupport of JS.                   
 
 # 3. Selenium WebDriver
