@@ -40,7 +40,7 @@
    
                 
 | Pros                                                    | Cons                                                      |
-|---------------------------------------------------------|-----------------------------------------------------------|
+|---------------------------------------------------------|---------------------|
 | Cross Browser and Platform                              | More Complicated than IDE                                 |
 | Perform Loops and conditional Statement                 | Programming knowledge is must                             |
 | Data driven test cases are possible                     | Selenium RC server needs to be run to start the execution |
@@ -62,3 +62,12 @@
    4. Enables simultaneous running of tests in multiple browser and environments.
         (For eg. We want the test case to run on windows on mac and linux then that is possible with Grid)
         (For eg. we want to test the case in Chrome and the Safari and then fireFox then this can be done in one go instead of running them one by one)
+        
+        
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
