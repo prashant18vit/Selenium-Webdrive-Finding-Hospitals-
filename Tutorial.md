@@ -48,4 +48,17 @@
 
 
 # 3. Selenium WebDriver
-:point_right: Selenium webdriver is better than RC and IDE
+:point_right: Selenium WebDriver is better than RC and IDE  
+:point_right: Selenium WebDiver is more Stable than RC  
+:point_right: WebDriver unlike RC does not rely on JS for automation **It controls the browser by directly communicating with it**  
+:point_right: WD also supports multiple programming language.
+
+# 4. Selenium Grid
+   > **Note**: Selenium Grid is used to execute the script and not write Script
+   
+   1. It is a tool used for parallel execution.(like executing 10 script at once)
+   2. Selenium grid is compatible with RC and WD both.
+   3. It works as an execution engine for Selenium tests.
+   4. Enables simultaneous running of tests in multiple browser and environments.
+        (For eg. We want the test case to run on windows on mac and linux then that is possible with Grid)
+        (For eg. we want to test the case in Chrome and the Safari and then fireFox then this can be done in one go instead of running them one by one)
