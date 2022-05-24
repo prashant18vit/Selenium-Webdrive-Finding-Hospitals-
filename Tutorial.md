@@ -1,6 +1,11 @@
 
 # **TUTORiAL** Selenium:
-**********************************
+
+## Context:
+    *
+    *
+    *
+    *
 
 1. **Selenium is a open Source UI automation tool.**
 2. Selenium is used to automate the web-application
