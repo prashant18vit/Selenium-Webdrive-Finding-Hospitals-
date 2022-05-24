@@ -44,5 +44,8 @@
 | Cross Browser and Platform | More Complicated than IDE |
 | Perform Loops and conditional Statement | Programming knowledge is must |
 | Data driven test cases are possible   | Selenium RC server needs to be run to start the execution  |
-|Can support multiple browser and is faster than the IDE| Slow than WebDriver Poorsupport of JS. |
+|Can support multiple browser and is faster than the IDE| Slow than WebDriver Poor support of JS. |
+
+
 # 3. Selenium WebDriver
+:point_right: Selenium webdriver is better than RC and IDE
