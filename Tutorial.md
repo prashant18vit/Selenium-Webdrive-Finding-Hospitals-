@@ -7,7 +7,7 @@
         2. [Selenium RC( Remote Control )](#2-selenium-rc)
         3. [Selenium WebDriver](#3-selenium-webdriver)
         4. [Selenium Grid](#4-selenium-grid)
-   2.
+   2. [Selenium Project and Driver](#2-selenium-project-and-driver)
 
 
 *1. **Selenium is a open Source UI automation tool.*  
@@ -15,7 +15,7 @@
 
 
     
-    > **Note:** Selenium is not used for Desk-top based application.
+  > **Note:** Selenium is not used for Desk-top based application.
 
 
 # Components of Selenium: 
@@ -64,8 +64,13 @@
         (For eg. we want to test the case in Chrome and the Safari and then fireFox then this can be done in one go instead of running them one by one)
         
    
+
+###### 2. Selenium Project and Driver
    > :bulb: Selenium comes in multiple jar's called as **Selenium Project**
-        
+   
+   > :brain: We need ***Driver*** to execute script in a particular browser.
+
+
 ```mermaid
 graph LR;
     subgraph JavaIDE
@@ -76,4 +81,7 @@ graph LR;
     selenium_Libraries-->driver-->Edge;
     selenium_Libraries-->driver-->FireFox;
 ```
+
+# 3. First Test Case in Selenium
+#### Test Verify Facebook HomePage. 
 
