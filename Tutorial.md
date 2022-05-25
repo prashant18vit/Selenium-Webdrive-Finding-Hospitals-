@@ -65,9 +65,13 @@
         
         
 ```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+graph LR;
+    subgraph JavaIDE
+    Java_Project<-->selenium_Libraries;
+    end;
+    WebApplication<-->Java_Project;
+    selenium_Libraries-->driver-->Chrome;
+    selenium_Libraries-->driver-->Edge;
+    selenium_Libraries-->driver-->FireFox;
 ```
+
