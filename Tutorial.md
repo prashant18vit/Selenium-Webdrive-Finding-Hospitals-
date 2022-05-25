@@ -5,8 +5,8 @@
    1. [Components of selenium](#components-of-selenium)
         1. [Selenium IDE (Integrated Development Environment )](#1-selenium-ide)
         2. [Selenium RC( Remote Control )](#2-selenium-rc)
-        3. Selenium WebDriver
-        4. Selenium Grid
+        3. [Selenium WebDriver](#3-selenium-webdriver)
+        4. [Selenium Grid](#4-selenium-grid)
    2.
 
 
@@ -24,8 +24,8 @@
    Tool's of Selenium:
    1. [Selenium IDE (Integrated Development Environment )](#1-selenium-ide)
    2. [Selenium RC(Remote Control)](#2-selenium-rc)
-   3. Selenium WebDriver
-   4. Selenium Grid
+   3. [Selenium WebDriver](#3-selenium-webdriver)
+   4. [Selenium Grid](#4-selenium-grid)
    
    # 1. Selenium IDE
    1. *Selenium IDE is just an record and play tool*
@@ -63,6 +63,8 @@
         (For eg. We want the test case to run on windows on mac and linux then that is possible with Grid)
         (For eg. we want to test the case in Chrome and the Safari and then fireFox then this can be done in one go instead of running them one by one)
         
+   
+   > :bulb: Selenium comes in multiple jar's called as **Selenium Project**
         
 ```mermaid
 graph LR;
