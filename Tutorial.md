@@ -83,5 +83,51 @@ graph LR;
 ```
 
 # 3. First Test Case in Selenium
+
+To open url we have to create object of **WebDriver** 
+use the driver insite the system property //inside System.setProperty(Webdrive.)
+> :bulb: Note:- **WebDriver is interface in selenium**  
+
+> :brain: NOTE:- ***ChromeDrive,EdgeDriver,SafariDriver are class which are implementing the WebDriver interface.***
 #### Test Verify Facebook HomePage. 
 
+* **
+* **Task 1**: *Open the facebook home page*  
+* **Task 2**: *Verify the page title*
+
+```java
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class FirstSeleniumPage {
+
+    @Test
+    public void VerifyFacebookHomePage(){
+
+/*      Task1: Open the FaceBook Home Page
+        Task2: Verify the page Title
+* */
+
+
+        String url = "https://www.facebook.com/";
+
+        // Open the URL with Selenium
+        System.setProperty("webdriver.edge.driver","F:\\Java\\Selinum\\msedgedriver.exe");
+        WebDriver driver = new EdgeDriver();
+//        To Maximize browser
+        driver.manage().window().maximize();
+        driver.get(url);
+
+//        Verify the page Title
+        String title = driver.getTitle();
+        System.out.println("Page Title: "+title);
+        Assert.assertEquals(title,"Facebook – log in or sign up");
+
+//        To Close the Browser
+        driver.close();
+    }
+
+}
+```
