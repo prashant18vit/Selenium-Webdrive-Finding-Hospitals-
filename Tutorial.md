@@ -1,4 +1,5 @@
-
+dfdfsd]
+W@#
 # **TUTORiAL** Selenium:
 
 ## Context:
@@ -109,8 +110,6 @@ public class FirstSeleniumPage {
 /*      Task1: Open the FaceBook Home Page
         Task2: Verify the page Title
 * */
-
-
         String url = "https://www.facebook.com/";
 
         // Open the URL with Selenium
@@ -131,3 +130,5 @@ public class FirstSeleniumPage {
 
 }
 ```
+
+## Java DOC (for selenium)
